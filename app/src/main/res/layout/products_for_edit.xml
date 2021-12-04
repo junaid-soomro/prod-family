@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/fbutton_color_clouds"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+
+        android:src="@drawable/noimage"
+        android:id="@+id/edit_prod_image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edit_prod_category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+    <TextView
+        android:text="Product Name"
+        android:id="@+id/edit_prod_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fbutton_color_pomegranate"
+        android:textSize="17dp"
+        android:textStyle="bold"
+       />
+
+        <TextView
+            android:id="@+id/edit_prod_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/edit_prod_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating" />
+
+    </LinearLayout>
+</LinearLayout>

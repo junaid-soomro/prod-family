@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dark.prod_family_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Productive Family"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.Login"
+            android:label="Login - Productive Family">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Register" />
+        <activity
+            android:name=".Activities.AdminDashboard"
+            android:label="@string/title_activity_admin_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Customer_Dashboard"
+            android:label="@string/title_activity_customer__dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CustomerArea.ViewProduct" />
+        <activity android:name=".CustomerArea.BillPayment" />
+        <activity android:name=".Activities.Prod_Family_prod_edit" />
+        <activity android:name=".Activities.Prod_Family" />
+        <activity android:name=".Activities.seller_frame_for_fragment" />
+        <activity
+            android:name=".Activities.Orders"
+            android:label="@string/title_activity_orders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.customer_frame_for_fragments" />
+        <activity android:name=".Activities.Rating"></activity>
+    </application>
+
+</manifest>

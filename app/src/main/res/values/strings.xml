@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Prod_family_project</string>
+    <string name="title_activity_admin_dashboard">AdminDashboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_customer_dashboard">CustomerDashboard</string>
+    <string name="title_activity_customer__dashboard">Customer_Dashboard</string>
+    <string name="title_activity_prod__family">Prod_Family</string>
+    <string name="title_activity_orders">Orders</string>
+</resources>
